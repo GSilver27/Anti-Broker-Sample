@@ -15,8 +15,9 @@
         <div class="d-flex justify-content-between pt-3">
 
             <div class="d-flex row">
-
-                <img src="images/justice-icon.png" alt="Logo">
+                <a href="#">
+                    <img src="images/justice-icon.png" alt="Logo">
+                </a>
                 <div class="ml-4">
                     <h4 class="header_h4__color">Анти-брокер</h4>
                     <div class="header__color">Бесплатная помощь обманутым инвесторам с 2011 года</div>
@@ -115,7 +116,7 @@
                         </select>
 
                         <label class="mt-3" for="tel">Контактный телефон</label><br>
-                        <input class="form-control col-11" type="text" id="tel" placeholder="+7 (000) 000-00-00" required>
+                        <input class="form-control col-11" type="tel" id="tel" pattern="[+0-9]{13}" placeholder="+7 (000) 000-00-00" maxlength="13" required>
 
                     </div>
 
