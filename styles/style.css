@@ -1,3 +1,69 @@
+@media screen and (max-width: 1110px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    header h4 {
+        font-size: 17px;
+    }
+
+    header h4 ~ div {
+        font-size: 14px;
+    }
+
+    header div:nth-of-type(2) {
+        font-size: 14px;
+    }
+
+    body .text-bigger {
+        font-size: 1.2rem;
+    }
+
+    main  h1 {
+        font-size: 30px;
+    }
+
+    main div:last-of-type {
+        font-size: 14px;
+    }
+
+    footer div:nth-of-type(1) h4 {
+        font-size: 17px;
+    }
+
+    footer div:nth-of-type(1) h4 ~ p {
+        font-size: 14px;
+    }
+
+    footer div:nth-of-type(1) h4 ~ a {
+        font-size: 12px;
+    }
+
+    footer div:nth-of-type(2) h2 {
+        font-size: 24px;
+    }
+
+    footer div:nth-of-type(2) h6 {
+        font-size: 16px;
+    }
+
+    footer div:nth-of-type(2) h6 ~ p {
+        font-size: 12px;
+    }
+
+    footer p .footer_p__width {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1110px) {
+
+
+
+}
+
 html {
     font-size: 16px;
     margin: 0;
@@ -7,6 +73,8 @@ html {
     width: 100%;
     margin: 0 auto;
     max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .padding-top-bottom {
@@ -44,9 +112,10 @@ html {
 .absolute-z-index {
     position: absolute;
     top: 2%;
-    right: 7%;
+    right: 19%;
     z-index: -1;
 }
+
 
 .logo {
     width: 158px;
