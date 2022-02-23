@@ -52,15 +52,9 @@
         font-size: 12px;
     }
 
-    footer p .footer_p__width {
-        width: 100px;
+    body footer .footer_p__width {
+        width: 350px;
     }
-
-}
-
-@media screen and (max-width: 1110px) {
-
-
 
 }
 
